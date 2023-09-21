@@ -1,0 +1,36 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    background-color: #87CEEB; /* 하늘색 배경색 */
+    color: #333; /* 텍스트 색상 */
+    border-radius: 8px; /* 카드 모서리 둥글게 */
+    padding: 20px; /* 내부 패딩 */
+    width: 300px; /* 카드 너비 */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+}
+
+.movie-title {
+    color: #E74C3C; /* 예쁜 색상 (예시: 빨간색) */
+    font-weight: bold;
+}
+
+.movie-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.movie-tag {
+    background-color: #3498db; /* 파란색 배경색 */
+    color: white; /* 텍스트 색상 */
+    padding: 5px 10px; /* 내부 패딩 */
+    border-radius: 20px; /* 태그 모서리 둥글게 */
+}

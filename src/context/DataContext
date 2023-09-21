@@ -1,0 +1,16 @@
+// DataContext.js
+import React, { createContext, useContext, useState } from 'react';
+
+const DataContext = createContext();
+
+const DataProvider = ({ children }) => {
+  const [movies, setMovies] = useState([]);
+
+  return (
+    <DataContext.Provider value={{ movies, setMovies }}>
+      {children}
+    </DataContext.Provider>
+  );
+};
+
+export { DataProvider, UseData };
