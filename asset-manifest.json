@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/helloreact/static/css/main.f826f3ff.css",
-    "main.js": "/helloreact/static/js/main.caae7c21.js",
+    "main.js": "/helloreact/static/js/main.f5aae28b.js",
     "index.html": "/helloreact/index.html",
     "main.f826f3ff.css.map": "/helloreact/static/css/main.f826f3ff.css.map",
-    "main.caae7c21.js.map": "/helloreact/static/js/main.caae7c21.js.map"
+    "main.f5aae28b.js.map": "/helloreact/static/js/main.f5aae28b.js.map"
   },
   "entrypoints": [
     "static/css/main.f826f3ff.css",
-    "static/js/main.caae7c21.js"
+    "static/js/main.f5aae28b.js"
   ]
 }
